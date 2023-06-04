@@ -13,7 +13,7 @@ const giveMeASign = (starSign) => {
     let randNum1 = Math.floor(Math.random()*7);
     let optMsg1 = msg1[randNum1]
 
-    let randNum2 = Math.floor(Math.random()*7);
+    let randNum2 = Math.floor(Math.random()*6);
     let optMsg2 = msg2[randNum2];
 
     console.log(`You told me that your sign is ${starSign}!`);
