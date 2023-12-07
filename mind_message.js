@@ -1,9 +1,5 @@
-// Arrays with message fragments
-
-/*
 // Array of star sign not needed anymore. Message will now require input of user
-const starSigns = ["Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn"];
-*/
+// const starSigns = ["Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn"];
 
 const msg1 = ["be having good luck today", "experiencing traumatic flashbacks", "have a great day today", "not fulfill your goals today", "face challenges", "face danger", "have challenging emotions"];
 
@@ -22,7 +18,6 @@ const giveMeASign = (starSign) => {
 
 };
 
-
-// The star sign needs to be the argument of the function
-giveMeASign("Aquarius");
+// Insert star sign below and run node in terminal
+giveMeASign();
 
